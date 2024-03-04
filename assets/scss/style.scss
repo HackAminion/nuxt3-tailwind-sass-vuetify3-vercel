@@ -1,0 +1,105 @@
+@use "vuetify/styles";
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./variables";
+
+$font-family1: "Madimi One";
+$font-family2: "Poppins";
+
+.fontMadimi-about-h {
+    font-family: $font-family1 !important;
+    color: #f8f6f6;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.5px !important;
+}
+.fontMadimi-about-h-center {
+    font-family: $font-family1 !important;
+    color: #FFFFFF;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.5px !important;
+}
+.fontMadimi-about-sh {
+    font-family: $font-family1 !important;
+    color: #faf6f6;
+    font-size: 30px !important;
+    letter-spacing: 1px !important;
+}
+.fontMadimi-about-p {
+    font-family: $font-family1 !important;
+    color: #ece6e6;
+    font-size: 24px !important;
+    letter-spacing: 1px !important;
+}
+.fontMadimi-about-p2 {
+    font-family: $font-family1 !important;
+    color: #404040;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+}
+.fontMadimi-about-p3 {
+    font-family: $font-family1 !important;
+    color: #2f2f37;
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
+}
+.fontPoppin-nav {
+    font-family: $font-family2 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+.fontPoppin-nav2 {
+    font-family: $font-family2 !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+.v-card-hello {
+    font-family: $font-family2 !important;
+    color: rgb(0, 0, 0) !important;
+}
+.mainbox {
+    padding: 10px 10px 10px 10px !important;
+    background-color: rgba(0, 0, 0, 0.077) !important;
+    text-align: center;
+    justify-items: center !important;
+}
+.mainbox2 {
+    padding: 10px 10px 10px 10px !important;
+    background-color: rgba(0, 0, 0, 0.871) !important;
+    text-align: center;
+    justify-items: center !important;
+}
+.mainbox3 {
+    padding: 10px 10px 10px 10px !important;
+    background-color: #7469B6 !important;
+    text-align: center;
+    justify-items: center !important;
+}
+.main2{
+    width: auto !important;
+    background-color: #0F0F0F !important;
+}
+.main3{
+    width: auto !important;
+    background-color: #7469B6 !important;
+}
+.main4{
+    width: auto !important;
+    background-color: #0F0F0F !important;
+}
+.main5{
+    width: auto !important;
+    background-color: #7469B6 !important;
+}
+.feather {
+    fill: rgba(0, 0, 0, 0.06);
+}
+.v-card-ex {
+    width: 400 !important;
+    border: 1px solid aliceblue !important;
+}
+.container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
