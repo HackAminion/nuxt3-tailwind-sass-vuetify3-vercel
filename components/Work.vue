@@ -1,11 +1,11 @@
 <script setup>
 </script>
 <template>
-    <div id="work">
+    <div>
         <v-container fluid>
             <v-row>
                 <v-col cols="12" md="12" sm="12">
-                    <span class="fontMadimi-about-h-center">My Work Experiance</span>
+                    <span class="fontMadimi-about-h-center">Examples of work</span>
                 </v-col>
             </v-row>
             <v-row>

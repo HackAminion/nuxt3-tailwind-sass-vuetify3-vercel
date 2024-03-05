@@ -22,7 +22,8 @@
                 <v-col cols="12" md="6">
                     <div class="container">
                         <v-img 
-                            src="/image/pm.png" 
+                            src="/image/pm2.svg" 
+                            alt="hackaminion"
                             >
                     </v-img>
                     </div>

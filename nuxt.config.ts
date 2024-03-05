@@ -25,7 +25,7 @@ export default defineNuxtConfig({
             class: 'demo'
         },
         charset: 'utf-8',
-        titleTemplate: 'My Portfolio by Jakkrit',
+        titleTemplate: '%s - Jakkrit',
         meta: [
             {
                 name: 'author',
@@ -41,6 +41,13 @@ export default defineNuxtConfig({
   modules: [
     'nuxt-icon',
     '@vueuse/nuxt',
+      [
+             "@nuxtjs/robots",
+             {
+                 UserAgent: "*",
+                 Disallow: "/",
+             },
+       ],
     (_options,nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         // @ts-expect-error

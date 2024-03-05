@@ -59,9 +59,10 @@ $font-family2: "Poppins";
 }
 .mainbox {
     padding: 10px 10px 10px 10px !important;
-    background-color: rgba(0, 0, 0, 0.077) !important;
+    background-color: rgba(0, 0, 0, 0.546) !important;
     text-align: center;
     justify-items: center !important;
+    border-radius: 20px !important;
 }
 .mainbox2 {
     padding: 10px 10px 10px 10px !important;
@@ -103,3 +104,46 @@ $font-family2: "Poppins";
     justify-content: center !important;
     align-items: center !important;
 }
+
+.index {
+    background-color: #D1D1D1;
+  }
+  .dark {
+    .mainbox {
+      padding: 10px 10px 10px 10px !important;
+      background-color: #B5C0D0 !important;
+      text-align: center;
+      justify-items: center !important;
+    }
+    .mainbox2 {
+      padding: 10px 10px 10px 10px !important;
+      background-color: #B5C0D0 !important;
+      text-align: center;
+      justify-items: center !important;
+    }
+    .fontPoppin-nav {
+      font-family: $font-family2 !important;
+      font-size: 18px !important;
+      font-weight: 500 !important;
+      color: rgb(75, 73, 73) !important;
+     }
+     .fontMadimi-about-h {
+      font-family: $font-family1 !important;
+      color: rgb(75, 73, 73) !important;
+      font-size: 32px !important;
+      font-weight: 500 !important;
+      letter-spacing: 1.5px !important;
+      }
+      .fontMadimi-about-sh {
+      font-family: $font-family1 !important;
+      color: rgb(75, 73, 73) !important;
+      font-size: 30px !important;
+      letter-spacing: 1px !important;
+      }
+      .fontMadimi-about-p {
+      font-family: $font-family1 !important;
+      color: rgb(75, 73, 73) !important;
+      font-size: 24px !important;
+      letter-spacing: 1px !important;
+      }
+  }

@@ -8,6 +8,20 @@ const changeBackground = () => {
   isDark.value = !isDark.value;
 };
 
+useHead({
+    title: "My Portfolio",
+    meta: [
+        { 
+          name: 'description', 
+          content: 'portfolio, jakkrit wongjinda' 
+        },
+        {
+          name: 'keywords',
+          content: 'portfolio, jakkrit wongjinda'
+        },
+    ]
+  })
+
 
 </script>
 
@@ -41,11 +55,11 @@ const changeBackground = () => {
                 </v-row>
             </v-container>
         </div>
-        <div class="main2">
+        <div class="main4">
             <v-container fluid>
                 <v-row>
                     <v-col cols="12">
-                        <SkillExperiance/>
+                        <Work/>
                     </v-col>
                 </v-row>
             </v-container>
@@ -59,11 +73,11 @@ const changeBackground = () => {
                 </v-row>
             </v-container>
         </div>
-        <div class="main4">
+        <div class="main2">
             <v-container fluid>
                 <v-row>
                     <v-col cols="12">
-                        <Work/>
+                        <SkillExperiance/>
                     </v-col>
                 </v-row>
             </v-container>
@@ -71,52 +85,4 @@ const changeBackground = () => {
     </div>
 </template>
 
-<style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-$font-family1: "Madimi One";
-$font-family2: "Poppins";
-
-.index {
-  background-color: #D1D1D1;
-}
-.dark {
-  .mainbox {
-    padding: 10px 10px 10px 10px !important;
-    background-color: #B5C0D0 !important;
-    text-align: center;
-    justify-items: center !important;
-  }
-  .mainbox2 {
-    padding: 10px 10px 10px 10px !important;
-    background-color: #B5C0D0 !important;
-    text-align: center;
-    justify-items: center !important;
-  }
-  .fontPoppin-nav {
-    font-family: $font-family2 !important;
-    font-size: 18px !important;
-    font-weight: 500 !important;
-    color: rgb(75, 73, 73) !important;
-   }
-   .fontMadimi-about-h {
-    font-family: $font-family1 !important;
-    color: rgb(75, 73, 73) !important;
-    font-size: 32px !important;
-    font-weight: 500 !important;
-    letter-spacing: 1.5px !important;
-    }
-    .fontMadimi-about-sh {
-    font-family: $font-family1 !important;
-    color: rgb(75, 73, 73) !important;
-    font-size: 30px !important;
-    letter-spacing: 1px !important;
-    }
-    .fontMadimi-about-p {
-    font-family: $font-family1 !important;
-    color: rgb(75, 73, 73) !important;
-    font-size: 24px !important;
-    letter-spacing: 1px !important;
-    }
-}
-</style>

@@ -2,10 +2,11 @@
 </script>
 
 <template>
-    <v-container fluid>
+    <div id="work">
+        <v-container fluid>
         <v-row>
                 <v-col cols="12">
-                    <span class="fontMadimi-about-h-center">My Work Experiance</span>
+                    <span class="fontMadimi-about-h-center">Working Experience</span>
                 </v-col>
         </v-row>
         <v-row>
@@ -184,4 +185,5 @@
             </v-col>
         </v-row>
     </v-container>
+    </div>
 </template>
