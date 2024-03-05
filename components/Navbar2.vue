@@ -25,7 +25,7 @@ defineProps({
                 </v-bottom-navigation>
             </v-col>
             <v-col cols="12" md="3">
-                <v-switch hide-details color="#92C7CF" value="sky" label="light" inset @change="changeBackground()"></v-switch>
+                <v-switch hide-details color="#92C7CF" value="sky" inset @change="changeBackground()"></v-switch>
             </v-col>
         </v-row>
     </v-container>

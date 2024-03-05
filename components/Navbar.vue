@@ -27,7 +27,7 @@ defineProps({
                 </v-card>
             </v-col>
             <v-col cols="12" md="1">
-                <v-switch  hide-details color="#92C7CF" inset value="sky" label="light" @change="changeBackground()"></v-switch>
+                <v-switch  hide-details color="#92C7CF" inset value="sky" @change="changeBackground()"></v-switch>
             </v-col>
             <v-col cols="12" md="2"></v-col>
         </v-row>
